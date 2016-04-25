@@ -10,11 +10,11 @@
  */
 public class MainSederhana {
         public static void main(String[] args) {
-        Sederhana s1 = new Sederhana(4,8);
-        System.out.println("Hasil Penjumlahan = "+Sederhana.Tambah(6, 7));
-        System.out.println("Hasil Pengurangan = "+Sederhana.Kurang(8, 5));
-        System.out.println("Hasil Perkalian   = "+s1.Kali(3, 5));
-        System.out.println("Hasil Pembagian   = "+s1.Bagi(9.0, 4.0));
+        Sederhana s1 = new Sederhana(2,10);
+        System.out.println("Hasil Penjumlahan = "+Sederhana.Tambah(2, 7));
+        System.out.println("Hasil Pengurangan = "+Sederhana.Kurang(12,5));
+        System.out.println("Hasil Perkalian   = "+s1.Kali(4, 5));
+        System.out.println("Hasil Pembagian   = "+s1.Bagi(10.0, 5.0));
         s1.Sederhana();
     }
 }
